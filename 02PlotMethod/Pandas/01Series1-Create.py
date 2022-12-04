@@ -26,6 +26,7 @@ d = pd.Series(data=dict1, index=['a', 'b', 'e', 'd'])  # 这样子数据会丢�
 print(d.dtype)
 print(d)
 
+
 # todo 2.使用二维数据创建Series 不能使用二维数据创建Series
 print("使用二维数据创建Series")
 a = [[1, 2, 3]]
