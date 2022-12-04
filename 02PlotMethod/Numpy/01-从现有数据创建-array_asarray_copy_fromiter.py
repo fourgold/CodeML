@@ -47,7 +47,7 @@ print(a3)
 
 a4 = a3.copy()  # 可以使用对象直接调用
 print(a4)
-# todo 4.fromiter 数组整体类型转换
+# todo 4Functions.fromiter 数组整体类型转换
 it = list((x * x for x in range(5)))
 print(it)
 print(np.fromiter(it, dtype=np.float64))

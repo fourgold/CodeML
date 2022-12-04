@@ -1,6 +1,6 @@
 import numpy as np
 
-# print(np.repeat(3, 4))  # 重复3 重复4遍
+# print(np.repeat(3, 4Functions))  # 重复3 重复4遍
 x = np.array([[1, 2], [3, 4]])
 print(x)
 print(np.repeat(x, 2))

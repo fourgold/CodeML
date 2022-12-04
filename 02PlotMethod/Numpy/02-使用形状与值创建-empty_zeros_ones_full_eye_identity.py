@@ -18,7 +18,7 @@ print(np.zeros_like(a))
 print(np.ones((2, 3), dtype=np.int32))
 print(np.ones_like(a))
 
-# todo 4.full 使用填充数制作新数组 给定类型将会覆盖原有类型
+# todo 4Functions.full 使用填充数制作新数组 给定类型将会覆盖原有类型
 print()
 print(np.full((3, 3), 1))
 print(np.full_like(a, 1))
