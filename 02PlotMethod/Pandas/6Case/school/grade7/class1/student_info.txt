@@ -1,0 +1,6 @@
+学生姓名;学生学号;性别;年龄
+grade7class11;1;女;16
+grade7class12;2;男;14
+grade7class13;3;男;12
+grade7class14;4;男;14
+grade7class15;5;男;15

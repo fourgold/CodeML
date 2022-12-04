@@ -1,0 +1,6 @@
+学生姓名;学生学号;性别;年龄
+grade9class236;36;女;16
+grade9class237;37;女;16
+grade9class238;38;男;13
+grade9class239;39;女;16
+grade9class240;40;女;16
