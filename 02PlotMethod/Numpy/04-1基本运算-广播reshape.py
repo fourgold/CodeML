@@ -49,7 +49,10 @@ print('part', part)
 x = np.array([[1, 2], [3, 4], [5, 6]])
 print(x.shape)
 print('x', x)
-print(x[[1, 2]])  # 制定多重索引 返回数组
+print('np array切片')
+# print(x[0]) # 返回单个
+# print(x[[1, 2]])  # 制定多重索引 返回数组
+
 print(x[[0, 1, 2], [0, 1, 0]])  # 花式取数 operands 等价于x[0, 0]、x[1, 1]和 x[2, 0]组成的数组
 
 

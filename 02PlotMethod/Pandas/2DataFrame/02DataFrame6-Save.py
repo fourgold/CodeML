@@ -26,7 +26,7 @@ for line in a.values:
 a.to_csv("./a.txt", index=False, header=False, sep=',')
 
 # todo 读入数据 names指定列名
-b = pd.read_csv('./a.txt', sep=',', index_col=None, header=None, names=['A', 'B', 'C', 'D'])
+b = pd.read_csv('../a.txt', sep=',', index_col=None, header=None, names=['A', 'B', 'C', 'D'])
 print(b.shape)
 print(b)
 
@@ -36,6 +36,6 @@ res = pd.read_excel('a.xlsx',sheet_name='aaa')
 
 # todo 存入JSON
 a.to_json('a.json')
-res = pd.read_json('a.json')
+res = pd.read_json('../a.json')
 print(res)
 

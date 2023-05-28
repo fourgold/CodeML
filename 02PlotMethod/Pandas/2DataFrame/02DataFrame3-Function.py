@@ -12,8 +12,13 @@ df01 = pd.DataFrame(data, index=['a', 'b', 'c'])
 print(df01)
 print("\n测试")
 
-df02 = df01.apply(func=lambda x: pd.Series([x[0], x[1] + 1, x[2]], index=['name', 'age', 'num']), axis=1)
+def printTT(x):
+    print('---')
+    print(x)
+df02 = df01.apply(func=printTT,axis=1)
 print(df02)
+# df02 = df01.apply(func=lambda x: pd.Series([x[0], x[1] + 1, x[2]], index=['name', 'age', 'num']), axis=1)
+# print(df02)
 print(df01)
 
 

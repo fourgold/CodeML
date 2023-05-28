@@ -6,7 +6,7 @@ import pandas as pd
 # dtype：数据类型，默认会自己判断。
 # name：设置名称。
 # copy：拷贝数据，默认为 False
-a = pd.Series(data=[1, 2, 3, 4, 5], index=['a', 'b', 'c', 'e', 'f'])  # 列向量
+a = pd.Series(data=[1, 2, 3, 4, 5], index=['a', 'b', 'c', 'e', 'f'], name='hello')  # 列向量
 print(a)
 print(type(a))
 print(a.dtype)
@@ -26,15 +26,13 @@ d = pd.Series(data=dict1, index=['a', 'b', 'e', 'd'])  # 这样子数据会丢�
 print(d.dtype)
 print(d)
 
-
 # todo 2.使用二维数据创建Series 不能使用二维数据创建Series
 print("使用二维数据创建Series")
 a = [[1, 2, 3]]
 s = pd.Series(data=a)
 print(s)
 
-
 # todo 3.使用标量创建Series 标量会是所有的值
 print("\n标量")
-s = pd.Series(5, index=['a', 'b','c']) # 标量
+s = pd.Series(5, index=['a', 'b', 'c'])  # 标量
 print(s)
